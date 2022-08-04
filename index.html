@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background-size: 350px;
+        background-position: center;
+      }
+      button {
+        border: 2px;
+        border-radius: 5px;
+        justify-content: center;
+        display: flex;
+        position: absolute top-50 start-50;
+        margin: 10px 10px;
+        font-size: 25px;
+        font-family: "Courier New", Courier, monospace;
+        color: white;
+      }
+      .card {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-top: 150px;
+        background-color: lightblue;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+    </style>
+    <title>Untuk Sayang Aku.Com</title>
+  </head>
+  <body>
+    <center>
+      <div class="card rounded-3" style="width: 18rem">
+        <img src="img/mitri.jpg.webp" style="width: 250px; height: 250px;" class="card-img-top img-fluid rounded-circle"
+        <div class="card-body">
+          <h5 class="card-title mt-3">Untuk Keberhasilan mu..</h5>
+           <button id="button" class="btn btn-primary btn-lg" onclick="mulai()">Klik Disini!</button>
+        </div>
+      </div>
+    </center>
+    <span id="hati" class="fixed-bottom text-center my-3" onclick="hati()"></span>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+    <script type="text/javascript">
+      const author = "Bagas";
+      const swals = Swal.mixin({
+        cancelButtonColor: "#d33",
+        confirmButtonColor: "#d63384",
+      });
+      async function mulai() {
+        await swals.fire("Hai Sayangnya aku...");
+        await swals.fire("Selamat yah atas perjuangan mu hingga hari ini...");
+        await swals.fire("karna jerih payah yang mu lakukan akhirnya kamu bisa melaksanakan sidang hari ini...");
+        await swals.fire("tentu saja ini bukan akhir dari perjalanan mu.. masih ada lagi perjuangan yang harus mu tempuh yah...");
+        await swals.fire("Tapi setidaknya kamu udah bisa untuk tenang dengan salah satu beban selama ini yang kamu pikul, akhirnya kamu bisa  menyelesaikan bahkan mu skrng ada di dalam ruangan sidang...");
+        await swals.fire("Aku tau berada di sana sangat gugup, bingung, takut, atau apapun itu yang kamu rasain sekarang... pasti rasanya campur aduk bukan??");
+        await swals.fire("Tapi aku yakin, ayangku pasti bisa untuk melawan itu semua yah... kamu harus lawan itu semua supaya nanti pada saat kamu ditanya oleh dosen penguji.. kmu akan siap dan akan tau jawabannya yah...");
+        await swals.fire("aku disini berdoa... untuk kesuksessan kamu yah.. aku tunggu kabar baiknya...");
+        await swals.fire("Dan aku mintak maaf ke ayang yah.. mungkin aku tidak bisa menunggu mu hingga akhir sidang selesai yah... karna saat ini ujian aku gak tau jelasnya gimana.. padahal aku ingin menunggu disana");
+        await swals.fire(" biar saat ayang keluar.. muka ku lah yang ayang lihat.. tapi mau gimana lagi.. waktu dan kondisi yang sangat bentrok alhasil suatu angan yang di inginkan dari aku gak terwujud..");
+        await swals.fire("Tapi semua itu gpp aku yakin... ayang pasti mengerti itu semua yah.. dan ku yakin.. ayangku pastii berhasil..");
+        await swals.fire("Sekali lagi selamat yah ayang ku 1/3 nya..");
+        await swals.fire("Pesan aku untuk ayangku ini!!!");
+        await swals.fire("Selalu semangat yah.. jangan malas-malas lagi.. dan pastinya jangan hilangkan semangat mu karna satu beban mu dah hilang. harus ingat yah.. beban ayang masih banyak lagi.. ");
+        await swals.fire("Oleh karena itu kamu harus terus semangat yah... aku selalu ada untuk ayangku kalau ayang butuh bantuan yah...");
+        await swals.fire("AKU SAYANG AYANG!!!");
+        await swals.fire("Sekali lagii selamat ayang atas keberhasilan muu!!");
+      }
+    </script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+  </body>
+</html>
